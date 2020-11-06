@@ -13,7 +13,15 @@ __target_inc=1
 DEVICE_TYPE?=router
 
 # Default packages - the really basic set
-DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd urandom-seed urngd block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget curl htop ipv6helper libustream-openssl ca-certificatesdefault-settings luci luci-app-adbyby-plus luci-app-airplay2 luci-app-ddns luci-app-upnp luci-app-autoreboot luci-app-webadmin luci-app-filetransfer luci-app-ssr-plus luci-app-unblockmusic luci-app-arpbind luci-app-wol luci-app-ramfree luci-app-ssr-plus_INCLUDE_Shadowsocks luci-app-ssr-plus_INCLUDE_Simple_obfs luci-app-sfe luci-app-nlbwmon luci-app-accesscontrol luci-app-cpufreq luci-app-ssr-plus_INCLUDE_V2ray_plugin luci-app-ssr-plus_INCLUDE_V2ray luci-app-ssr-plus_INCLUDE_Trojan ddns-scripts_aliyun ddns-scripts_dnspod luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks luci-app-v2ray-server dnsmasq_full_dhcpv6
+DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch \
+logd urandom-seed urngd block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra \
+kmod-ipt-raw wget curl htop ipv6helper libustream-openssl ca-certificatesdefault-settings \
+luci luci-app-adbyby luci-app-adbyby-plus luci-app-ddns luci-app-upnp luci-app-autoreboot \
+luci-app-webadmin luci-app-ssr-plus luci-app-unblockmusic luci-app-arpbind luci-app-wol \
+luci-app-ramfree luci-app-ssr-plus_INCLUDE_Shadowsocks luci-app-ssr-plus_INCLUDE_Simple_obfs \
+luci-app-ssr-plus_INCLUDE_V2ray_plugin luci-app-ssr-plus_INCLUDE_V2ray luci-app-ssr-plus_INCLUDE_Trojan \
+luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks \
+luci-app-nlbwmon luci-app-accesscontrol luci-app-cpufreq  ddns-scripts_aliyun ddns-scripts_dnspod dnsmasq_full_dhcpv6
 
 # For the basic set
 DEFAULT_PACKAGES.basic:=
