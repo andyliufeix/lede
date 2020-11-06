@@ -13,16 +13,12 @@ __target_inc=1
 DEVICE_TYPE?=router
 
 # Default packages - the really basic set
-DEFAULT_PACKAGES:=base-files libc libgcc kmod-usb-ohci kmod-usb-ohci-pci kmod-usb2 kmod-usb2-pci kmod-usb3 dropbear mtd uci opkg netifd fstools uclient-fetch logd urandom-seed urngd \
-block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget curl htop ipv6helper libustream-openssl ca-certificates \
+DEFAULT_PACKAGES:=block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget curl htop ipv6helper libustream-openssl ca-certificates \
 default-settings luci luci-app-adbyby-plus luci-app-airplay2 luci-app-ddns luci-app-upnp luci-app-autoreboot luci-app-webadmin \
-luci-app-filetransfer luci-app-passwall luci-app-passwall_INCLUDE_ipt2socks luci-app-passwall_INCLUDE_ShadowsocksR \
-luci-app-passwall_INCLUDE_ShadowsocksR_socks luci-app-passwall_INCLUDE_V2ray luci-app-passwall_INCLUDE_Trojan \
-luci-app-passwall_INCLUDE_Brook luci-app-passwall_INCLUDE_ChinaDNS_NG luci-app-ssr-plus luci-app-unblockmusic \
-luci-app-passwall_INCLUDE_pdnsd luci-app-passwall_INCLUDE_dns2socks luci-app-arpbind luci-app-wol luci-app-ramfree \
+luci-app-filetransfer luci-app-ssr-plus luci-app-unblockmusic luci-app-arpbind luci-app-wol luci-app-ramfree \
 luci-app-ssr-plus_INCLUDE_Shadowsocks luci-app-ssr-plus_INCLUDE_Simple_obfs luci-app-sfe luci-app-nlbwmon luci-app-accesscontrol luci-app-cpufreq \
 luci-app-ssr-plus_INCLUDE_V2ray_plugin luci-app-ssr-plus_INCLUDE_V2ray luci-app-ssr-plus_INCLUDE_Trojan ddns-scripts_aliyun ddns-scripts_dnspod \
-luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks luci-app-v2ray-server dnsmasq_full_dhcpv6 
+luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks luci-app-v2ray-server dnsmasq_full_dhcpv6
 
 # For the basic set
 DEFAULT_PACKAGES.basic:=
